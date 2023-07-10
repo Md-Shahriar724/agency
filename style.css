@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+}
+.nav-container > img{
+    height: 50px;
+    width: 50px;
+}
+.nav-container >ul{
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
