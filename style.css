@@ -156,3 +156,53 @@
     font-size: large;
     margin-top: 65px;
 }
+/* box start here */
+.box-container{
+    width: 90%;
+    margin: auto;
+    background-color: gray;
+    margin-top:60px;
+    height: 90vh;
+}
+.box-container-title{
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(221, 220, 220);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+.box-image{
+    height: 150px;
+    width:200px;
+    border-radius: 5px;
+}
+.blog-box{
+    width: 200px;
+    height: 350px;
+    text-align: center;
+    background-color: rgb(36, 9, 9);
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgb(94, 40, 40);
+   
+}
+.all-boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+.box-title{
+    color: white;
+    font-size: 30px;
+}
+.box-container-color{
+    color: rgb(209, 5, 5);
+    margin-right: 10px;
+}
+.box-description{
+    color: rgb(221, 220, 220);
+    text-align: left;
+    margin: 10px;
+}
