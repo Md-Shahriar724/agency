@@ -6,16 +6,38 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: gray;
+    background-color: rgb(212, 40, 40);
 }
 .nav-container > img{
     height: 50px;
     width: 50px;
 }
-.nav-container >ul{
+.nav-container > ul{
     list-style: none;
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.nav-container > img {
+    margin: 5px;
+    border-radius: 5px;
+}
+.list-item{
+    margin: 10px;
+    font-size: medium;
+    font-weight: bold;
+}
+.cover{
+    background-image: url("images/cover.jpg"), linear-gradient(rgba(0,0,0,1), rgba(0,0,0,3));
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+}
+.cover-title{
+    font-size: 50px;
+    font-weight: 800;
+}
+.title{
+    color:rgb(209, 5, 5)
 }
